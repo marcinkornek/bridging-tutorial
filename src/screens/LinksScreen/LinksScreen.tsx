@@ -12,10 +12,17 @@ export const LinksScreen: FC = () => {
     navigation.navigate(SCREEN_NAMES.APP_INFO_SCREEN);
   };
 
+  const navigateToConicGradientScreen = () => {
+    navigation.navigate(SCREEN_NAMES.CONIC_GRADIENT_SCREEN);
+  };
+
   return (
     <View style={styles.container}>
       <Pressable onPress={navigateToAppInfoScreen} style={styles.button}>
         <Text>Open App Info Screen</Text>
+      </Pressable>
+      <Pressable onPress={navigateToConicGradientScreen} style={styles.button}>
+        <Text>Open Conic Gradient Screen</Text>
       </Pressable>
     </View>
   );

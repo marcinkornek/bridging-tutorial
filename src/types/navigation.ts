@@ -10,6 +10,7 @@ export type RootStackParamList = {
 export type AppNavigatorParamsList = {
   [SCREEN_NAMES.LINKS_SCREEN]: undefined;
   [SCREEN_NAMES.APP_INFO_SCREEN]: undefined;
+  [SCREEN_NAMES.CONIC_GRADIENT_SCREEN]: undefined;
 };
 
 export type LinksScreenNavigationProp = NativeStackNavigationProp<
