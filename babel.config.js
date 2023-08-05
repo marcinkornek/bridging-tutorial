@@ -17,6 +17,9 @@ module.exports = {
           '.tsx',
           '.json',
         ],
+        alias: {
+          'app-info-package': './app-info-package',
+        },
       },
     ],
     [
