@@ -1,0 +1,3 @@
+export enum NAVIGATOR_NAMES {
+  APP_NAVIGATOR = 'APP_NAVIGATOR',
+}
