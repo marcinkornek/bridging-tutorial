@@ -27,7 +27,7 @@ fun resolveReactNativeDirectory(): File {
     }
 
     throw GradleException(
-        "[app-info-package] Unable to resolve react-native location in " +
+        "[conic-gradient-package] Unable to resolve react-native location in " +
         "node_modules. You should project extension property (in app/build.gradle) " +
         "`REACT_NATIVE_NODE_MODULES_DIR` with path to react-native."
     )
