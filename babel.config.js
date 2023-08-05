@@ -19,6 +19,7 @@ module.exports = {
         ],
         alias: {
           'app-info-package': './app-info-package',
+          'conic-gradient-package': './conic-gradient-package',
         },
       },
     ],

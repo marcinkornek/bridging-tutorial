@@ -4,6 +4,7 @@
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "paths": {
       "app-info-package": ["./app-info-package"],
+      "conic-gradient-package": ["./conic-gradient-package"],
     }
   }
 }
